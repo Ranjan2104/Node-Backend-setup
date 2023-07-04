@@ -7,6 +7,6 @@ mongoose.connect(mongoUrl, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => {
-    console.log("DataBase Connected Successfully");
+    console.log("DataBase Connected Successfully!");
 })
 .catch((e) => console.log(e));
